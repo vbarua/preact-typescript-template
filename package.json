@@ -1,7 +1,7 @@
 {
     "private": true,
     "scripts": {
-        "build": "preact build",
+        "build": "preact build --sw false",
         "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
         "typecheck": "tsc --noEmit",
         "watch": "preact watch"
