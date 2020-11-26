@@ -1,5 +1,6 @@
 {
     "private": true,
+    "license": "MIT",
     "scripts": {
         "build": "preact build --sw false",
         "lint": "eslint 'src/**/*.{js,jsx,ts,tsx}'",
