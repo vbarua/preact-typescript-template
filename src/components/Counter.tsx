@@ -17,20 +17,20 @@ export class Counter extends Component<Unit, State> {
   }
 
   render(): ComponentChild {
-    return <div class="flex flex-row">
-      <div class="flex-grow" />
+    return <div className="flex flex-row">
+      <div className="flex-grow" />
       <button
         onClick={this.incrementCounter}
-        class="py-2 px-4 bg-blue-400 hover:bg-red-700 justify-center rounded-lg shadow-md
+        className="py-2 px-4 bg-blue-400 hover:bg-red-700 justify-center rounded-lg shadow-md
           flex-none">
         Increment Counter
       </button>
-      <div class="flex-grow" />
-      <div class="py-2 pl-4
+      <div className="flex-grow" />
+      <div className="py-2 pl-4
         flex-none">
         {this.state.count}
       </div>
-      <div class="flex-grow" />
+      <div className="flex-grow" />
     </div>
   }
 
