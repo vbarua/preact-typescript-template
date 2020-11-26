@@ -10,9 +10,9 @@ const App: FunctionalComponent = () => {
               Hello, World!
           </h1>
           <ul class="pt-4">
-              <li class="pt-2"><Counter/></li>
-              <li class="pt-2"><Counter/></li>
-              <li class="pt-2"><Counter/></li>
+              <li class="pt-2"><Counter /></li>
+              <li class="pt-2"><Counter /></li>
+              <li class="pt-2"><Counter /></li>
           </ul>
       </div>
   );
